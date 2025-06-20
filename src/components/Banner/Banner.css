@@ -1,0 +1,66 @@
+.banner {
+  background-color: #5a827e;
+  height: 60vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Bodoni Moda", serif;
+}
+
+.banner p {
+  width: 80%;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1.8rem;
+  font-weight: normal;
+}
+
+.banner-button-container {
+  margin-top: 40px;
+  display: flex;
+  gap: 20px;
+}
+
+.banner-button-container button {
+  padding: 12px 28px;
+  font-size: 16px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.banner-button-container button:first-child {
+  background-color: #90d1ca;
+  color: black;
+  border: 2px solid #90d1ca;
+}
+
+.banner-button-container button:first-child:hover {
+  background-color: transparent;
+  color: #90d1ca;
+}
+
+/* Second button: outlined yellow with yellow text */
+.banner-button-container button:last-child {
+  background-color: transparent;
+  color: #90d1ca;
+  border: 2px solid #90d1ca;
+}
+
+.banner-button-container button:last-child:hover {
+  background-color: #90d1ca;
+  color: black;
+}
+
+.highlight {
+  color: #90d1ca; /* hot pink - you can change to another appropriate color if needed */
+}
+
+@media screen and (max-width: 468px) {
+  .banner p {
+    font-size: 14px;
+  }
+}
